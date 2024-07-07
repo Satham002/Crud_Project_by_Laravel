@@ -1,0 +1,6 @@
+Composer create-project laravel/laravel {Project_name}
+cd Project_name
+php artisan serve
+php artisan make:controller ProductController
+php artisan make:model Product -m
+php artisan migrate:fresh
